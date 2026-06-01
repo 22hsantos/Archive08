@@ -1,5 +1,17 @@
 /* || GENERAL STYLES */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* global header style */
+
 .global-header {
+    height: 200px;
+    margin: 10px;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
