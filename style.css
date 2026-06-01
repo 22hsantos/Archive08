@@ -22,7 +22,7 @@
     background-color: gray;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 /* middle introduction section*/
@@ -42,4 +42,22 @@
     background-color: pink;
     justify-content: center;
     align-items: flex-start;
+}
+
+/* left Sidebar */
+.left-sidebar {
+    height: 400px;
+    width: 200px;
+    background-color:lightgreen;
+    overflow: auto;
+    margin-left: auto;
+}
+
+/* right navbar */
+.right-navbar {
+    height: 400px;
+    width: 200px;
+    background-color: lightcoral;
+    overflow: auto;
+    margin-right: auto;
 }
