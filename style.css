@@ -63,8 +63,27 @@
     height: 400px;
     width: 200px;
     background-color:lightgreen;
-    overflow: auto;
     margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* left Sidebar content wrapper */
+.left-sidebar-wrapper {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.update-box {
+    display: flex;
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    background-color: aliceblue;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 /* right navbar */
