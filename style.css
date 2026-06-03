@@ -26,22 +26,27 @@
 }
 
 /* middle introduction section*/
-.intro-section {
-    position:relative;
-    background-color: antiquewhite;
+.main-section-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 }
 
 /* intro header*/
-.content-title {
-    position:absolute;
-    top:0;
+.main-title {
+    display: flex;
     height: 30px;
     background-color: pink;
+    justify-content: flex-start;
+    text-align:left
+}
+
+/* main content */
+.main-content {
+    background-color: antiquewhite;
     justify-content: center;
-    align-items: flex-start;
+    overflow: auto;
 }
 
 /* left Sidebar */
@@ -50,7 +55,7 @@
     width: 200px;
     background-color:lightgreen;
     overflow: auto;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 /* right navbar */
@@ -59,5 +64,5 @@
     width: 200px;
     background-color: lightcoral;
     overflow: auto;
-    margin-right: auto;
+    margin-left: auto;
 }
