@@ -70,12 +70,13 @@
 
 /* left Sidebar content wrapper */
 .left-sidebar-wrapper {
-    margin: 20px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+/* box for updates*/
 .update-box {
     display: flex;
     height: 200px;
@@ -93,4 +94,11 @@
     background-color: lightcoral;
     overflow: auto;
     margin-left: auto;
+}
+
+/* right navbar content wrapper */
+.right-navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
