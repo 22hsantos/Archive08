@@ -32,8 +32,8 @@
     margin-top: 20px;
 }
 
-/* main content style*/
-.content-wrapper {
+/* all content style*/
+.all-content-wrapper {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -155,7 +155,7 @@
 }
 
 /* Style for index */
-.index-content-wrapper {
+.index-all-content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
