@@ -274,7 +274,7 @@ marquee {
     display:flex;
     flex-direction: column;
     justify-content: end;
-    margin-left:auto;
+    margin: 20px 20px auto 20px;
 
     background-color: aliceblue;
 }
@@ -284,6 +284,7 @@ marquee {
     flex-direction: column;
     justify-content: start;
     margin-right: auto;
+    margin-left: 20px;
 
     background-color: bisque;
 }
