@@ -67,6 +67,7 @@ marquee {
 
 /* mid description section*/
 .main-desc-wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -79,6 +80,13 @@ marquee {
     background-color: blanchedalmond;
 }
 
+/* HACK:need to make seperate class for img eventually */
+.main-desc-wrapper img{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 170px;
+}
 /* description header*/
 .main-title {
 
