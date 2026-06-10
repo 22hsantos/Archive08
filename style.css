@@ -31,6 +31,16 @@ marquee {
 /* all content style*/
 .all-content-wrapper {
     display: flex;
+    flex-direction: column;
+
+    height: max-content;
+    max-width: 1000px;
+    background-color: rgb(203, 86, 86);
+    margin: auto;
+}
+
+.main-content-wrapper{
+    display: flex;
     justify-content: center;
     align-items: start;
 
@@ -255,6 +265,7 @@ marquee {
 
 .about-me-wrapper{
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin-top: 20px;
     background-color: coral;
