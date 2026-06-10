@@ -22,23 +22,25 @@
 /* Global footer style*/
 .global-footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     height: 300px;
     width: 100%;
     background-color: cornflowerblue;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 /* main content style*/
 .content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 
-    height: 400px;
+    max-height: 100%;
     max-width: 1000px;
+    background-color: darkgrey;
     margin: auto;
 }
 
@@ -50,7 +52,7 @@
     align-items: center;
 
     width: 600px;
-    height: 100%;
+    height: 400px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: blanchedalmond;
