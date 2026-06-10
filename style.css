@@ -79,6 +79,8 @@
     overflow: auto;
 }
 
+/* || SIDEBARS */
+
 /* left Sidebar */
 .left-sidebar {
     display:flex;
@@ -141,7 +143,7 @@
     padding: 10px;   
 }
 
-img {
+.entry-door img {
     display: flex;
     width: 100%;
     height: 100%;
