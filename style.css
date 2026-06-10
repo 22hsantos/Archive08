@@ -1,4 +1,4 @@
-/* || GENERAL STYLES */
+/* ------------GENERAL STYLES------------*/
 
 * {
     margin: 0;
@@ -44,7 +44,8 @@
     margin: auto;
 }
 
-/* MID SECTION */
+
+/* ------------MID SECTION------------*/
 
 /* mid section wrapper style*/
 .main-content-wrapper {
@@ -63,7 +64,7 @@
     align-items: center;
 
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: blanchedalmond;
@@ -87,7 +88,7 @@
     margin: 20px;
 }
 
-/* || SIDEBARS */
+/* ------------SIDEBARS------------*/
 
 /* left Sidebar */
 .left-sidebar {
@@ -96,7 +97,7 @@
     justify-content: start;
     align-items: center;
 
-    height: 400px;
+    height: 500px;
     width: 200px;
     background-color:lightgreen;
     margin-right: auto;
@@ -113,20 +114,6 @@
     padding: 10px;
 }
 
-/* box for updates*/
-.update-box {
-    display: flex;
-
-    flex-direction: column;
-
-    height: 200px;
-    width: 150px;
-    margin: 20px;
-    background-color: aliceblue;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 /* right navbar */
 .right-navbar {
     display:flex;
@@ -134,7 +121,7 @@
     justify-content: start;
     align-items: start;
 
-    height: 400px;
+    height: 500px;
     width: 200px;
     background-color: lightcoral;
     overflow: auto;
@@ -151,7 +138,7 @@
     padding: 10px;   
 }
 
-/* Style for index */
+/* ------------INDEX------------*/
 .index-content-wrapper {
     display: flex;
     flex-direction: column;
@@ -182,7 +169,34 @@
     image-rendering: pixelated;
 }
 
-/* SHRINE STYLE*/
+/* ------------HOMEPAGE------------*/
+
+/* box for updates*/
+.update-box {
+    display: flex;
+
+    flex-direction: column;
+
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    background-color: aliceblue;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* calendar */
+.calendar-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 180px;
+    width: 180px;
+    background-color: bisque;
+}
+
+/* ------------SHRINE------------*/
 
 .shrine-wrapper {
     display: grid;
@@ -205,7 +219,7 @@
     image-rendering: crisp-edges;
 }
 
-/* ABOUT ME STYLE */
+/* ------------ABOUT ME------------*/
 
 .gallery-box {
     display: flex;
