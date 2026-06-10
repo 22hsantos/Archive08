@@ -173,3 +173,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/*TODO: add style for shrine-wrapper*/
+
+.shrine-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.shrine-wrapper img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
