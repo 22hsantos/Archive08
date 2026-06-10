@@ -67,7 +67,7 @@ marquee {
 
 /* mid description section*/
 .main-desc-wrapper {
-    position: relative;
+    position: relative; /*HACK: remove when img fixed */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
