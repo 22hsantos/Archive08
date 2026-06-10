@@ -85,7 +85,8 @@ marquee {
     position: absolute;
     right: 20px;
     bottom: 10px;
-    width: 170px;
+    width: 300px;
+    height: 240px;
 }
 /* description header*/
 .main-title {
@@ -128,6 +129,12 @@ marquee {
     justify-content: center;
 
     padding: 10px;
+}
+
+/* HACK:need to make seperate class for img eventually */
+.left-sidebar-wrapper img{
+    height: 170px;
+    width: 170px;
 }
 
 /* right navbar */
