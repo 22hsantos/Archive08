@@ -43,8 +43,7 @@
 }
 
 /* middle introduction section*/
-.main-section-wrapper {
-
+.main-desc-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -176,12 +175,16 @@
 /*TODO: add style for shrine-wrapper*/
 
 .shrine-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*eventually change to 4 columns*/
+    gap: 10px;
 
-    width: 100%;
+    width: 600px;
     height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aqua;
 }
 
 .shrine-wrapper img {
@@ -189,6 +192,7 @@
     width: 150px;
     height: 150px;
     object-fit: contain;
+    margin: 10px;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
