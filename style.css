@@ -252,3 +252,7 @@ marquee {
     background-color: rgb(150, 196, 237);
     overflow: auto;
 }
+
+.about-me-wrapper{
+    background-color: coral;
+}
