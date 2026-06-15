@@ -31,6 +31,7 @@ marquee {
 /* all content style*/
 .all-content-wrapper {
     display: flex;
+    align-items: center;
     flex-direction: column;
 
     height: max-content;
@@ -117,7 +118,7 @@ marquee {
 
 /* left Sidebar */
 .left-sidebar {
-    display:block;
+    display:flex;
     justify-content: start;
     align-items: center;
 
@@ -146,7 +147,7 @@ marquee {
 
 /* right navbar */
 .right-navbar {
-    display:block;
+    display:flex;
     justify-content: start;
     align-items: start;
 
@@ -274,7 +275,7 @@ marquee {
     display:flex;
     flex-direction: column;
     justify-content: end;
-    margin: 20px 20px auto 20px;
+    margin: 20px 20px 20px auto;
 
     background-color: aliceblue;
 }
