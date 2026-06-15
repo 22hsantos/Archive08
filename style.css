@@ -119,7 +119,7 @@ marquee {
 /* left Sidebar */
 .left-sidebar {
     display:flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 
     height: 500px;
