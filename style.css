@@ -7,7 +7,9 @@
 
 @font-face {
     font-family: 'Pixel2';
-    src: url('file:///C:/Users/heave/Downloads/Jersey_10,Pixelify_Sans/Pixelify_Sans/static.ttf') format('truetype');
+    src: url('assets/fonts/PixelifySans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 /* ------------GENERAL STYLES------------*/
 
