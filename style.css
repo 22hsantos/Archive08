@@ -11,6 +11,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'HeaderFont';
+    src: url('assets/fonts/Simon.woff2') format('woff2');
+}
 /* ------------GENERAL STYLES------------*/
 
 * {
@@ -21,6 +26,13 @@
 body {
     font-family: 'Pixel2', sans-serif;
 }
+
+h1 {
+    font-family: 'HeaderFont', sans-serif;
+    padding: 15px;
+    background-color: white;
+}
+
 marquee {
     display: flex;
 
