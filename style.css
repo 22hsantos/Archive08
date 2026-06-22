@@ -29,7 +29,9 @@ body {
 
 h1 {
     font-family: 'HeaderFont', sans-serif;
-    padding: 15px;
+    padding: 10px;
+    border: 5px solid #247800;
+    border-radius: 3px;
     background-color: white;
 }
 
@@ -53,7 +55,7 @@ marquee {
     max-width: 1000px;
     margin-top: 20px;
     margin: 20px auto 10px auto;
-    background-color: rgb(205, 185, 227);
+    background-color: #bff38f;
 }
 
 /* all content style*/
