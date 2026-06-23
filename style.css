@@ -28,6 +28,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-family: 'HeaderFont', sans-serif;
     padding: 10px;
     border: 5px solid #247800;
@@ -56,6 +57,18 @@ marquee {
     margin-top: 20px;
     margin: 20px auto 10px auto;
     background-color: #bff38f;
+}
+
+.banner-left{
+    display: block;
+    margin-right: auto;
+    border: 3px solid blue;
+}
+
+.banner-right{
+    display: block;
+    margin-left: auto;
+    border: 2px solid salmon;
 }
 
 /* all content style*/
