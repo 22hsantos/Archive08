@@ -43,7 +43,6 @@ marquee {
     max-width: 1000px;
     margin: 10px auto 10px auto;
     overflow: hidden;
-    background-color: aqua;
 }
 /* global header style */
 .global-header {
@@ -71,6 +70,15 @@ marquee {
     border: 2px solid salmon;
 }
 
+.marquee-bar{
+    background: linear-gradient(
+    180deg, 
+        #e7fdbb 0%, 
+        #bff38f 50%,
+        #247800 53%,
+        #e7fdbb 100%
+    );
+}
 /* all content style*/
 .all-content-wrapper {
     display: flex;
