@@ -36,13 +36,14 @@ h1 {
     background-color: white;
 }
 
-marquee {
-    display: flex;
-
-    height: 20px;
-    max-width: 1000px;
-    margin: 10px auto 10px auto;
-    overflow: hidden;
+marquee{
+    color: white;
+    font-size: large;
+    text-shadow:
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px  2px 0 #000,
+        2px  2px 0 #000;
 }
 /* global header style */
 .global-banner {
@@ -71,6 +72,12 @@ marquee {
 }
 
 .marquee-bar{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    max-width: 1000px;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
     background: linear-gradient(
     180deg, 
         #e7fdbb 0%, 
