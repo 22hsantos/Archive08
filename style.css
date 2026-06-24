@@ -45,7 +45,7 @@ marquee {
     overflow: hidden;
 }
 /* global header style */
-.global-header {
+.global-banner {
 
     display: flex;
     justify-content: center;
