@@ -58,18 +58,25 @@ marquee{
     margin-top: 20px;
     margin: 20px auto 10px auto;
     background-color: #bff38f;
+
+    /* global banner border */
+    box-sizing: border-box;
+    border: 7px outset #f4fee1;
+    border-radius: 10px;
 }
 
 .banner-left{
     display: block;
     margin-right: auto;
-    border: 3px solid blue;
+
+    height: 186px;
 }
 
 .banner-right{
     display: block;
     margin-left: auto;
-    border: 2px solid salmon;
+
+    height: 186px;
 }
 
 .marquee-bar{
@@ -108,6 +115,13 @@ marquee{
     margin: auto;
 }
 
+/* border style*/
+.border{
+    /* main desc border */
+    box-sizing: border-box;
+    border: 3px dashed #247800;
+    border-radius: 10px;
+}
 /* Global footer style*/
 .global-footer{
     display: flex;
@@ -181,7 +195,7 @@ marquee{
 
     height: 500px;
     width: 200px;
-    background-color:lightgreen;
+    background-color:rgb(179, 189, 168);
     margin-right: auto;
 }
 
