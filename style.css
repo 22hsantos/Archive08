@@ -143,6 +143,9 @@ marquee{
     align-items: center;
     margin: 0px 20px 20px 20px;
     height: max-content;
+
+    box-sizing: border-box;
+    border: 7px inset #f4fee1;
 }
 
 /* mid description section*/
@@ -321,6 +324,9 @@ marquee{
 
 /* ------------ABOUT ME------------*/
 
+.about-me-bg{
+    background: radial-gradient(circle 1000px at 70% 0%, #ffffff 50%, #dcd4bb );
+}
 .gallery-box {
     display: flex;
 
@@ -358,4 +364,9 @@ marquee{
     margin-left: 20px;
 
     background-color: bisque;
+}
+
+/* ------------SHRINES------------*/
+.shrine-bg{
+    background: radial-gradient(circle 700px at 45% 20%, #f4fee1 50%, #bff38f );   
 }
