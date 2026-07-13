@@ -118,7 +118,6 @@ marquee{
 .border{
     /* main desc border */
     box-sizing: border-box;
-    border: 3px dashed #247800;
     border-radius: 10px;
 }
 /* Global footer style*/
@@ -150,24 +149,20 @@ marquee{
 
 /* mid description section*/
 .main-desc-wrapper {
-    position: relative; /*HACK: remove when img fixed */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 
     width: 600px;
-    height: 480px;
+    height: auto;
     background-color: blanchedalmond;
 }
 
 /* HACK:need to make seperate class for img eventually */
 .main-desc-wrapper img{
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    width: 300px;
-    height: 240px;
+    width: 30%;
+    height: auto;
+
+    margin: 0 7% 5% auto;
 }
 /* description header*/
 .main-title {
@@ -184,6 +179,8 @@ marquee{
 /* description text*/
 .desc-content {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
 }
 
