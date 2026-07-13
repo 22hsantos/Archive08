@@ -24,7 +24,7 @@
 }
 
 body {
-    background: #f2f2e7;
+    background: radial-gradient(circle 900px at 45% 0%, #ffffff 50%, #dcd4bb );
     font-family: 'Pixel2', sans-serif;
 }
 
@@ -58,7 +58,7 @@ marquee{
 
     /* global banner border */
     box-sizing: border-box;
-    border: 7px outset #f4fee1;
+    border: 7px inset #f4fee1;
     border-radius: 10px;
 }
 
