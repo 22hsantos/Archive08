@@ -39,12 +39,9 @@ h1 {
 
 marquee{
     color: white;
-    font-size: large;
-    text-shadow:
-        -2px -2px 0 #000,  
-        2px -2px 0 #000,
-        -2px  2px 0 #000,
-        2px  2px 0 #000;
+    font-size: larger;
+    -webkit-text-stroke: 4px #103600;
+    paint-order: stroke;
 }
 /* global header style */
 .global-banner {
@@ -86,6 +83,8 @@ marquee{
     max-width: 1000px;
     margin: 10px auto 10px auto;
     overflow: hidden;
+
+    border: 2px solid #247800;
     background: linear-gradient(
     180deg, 
         #e7fdbb 0%, 
