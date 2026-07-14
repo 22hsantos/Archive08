@@ -142,6 +142,8 @@ marquee{
     align-items: center;
     margin: 0px 20px 20px 20px;
     height: max-content;
+    width: 100%;
+    max-width: 600px;
 
     box-sizing: border-box;
     border: 7px inset #f4fee1;
@@ -152,9 +154,10 @@ marquee{
     display: flex;
     flex-direction: column;
 
-    width: 600px;
-    height: auto;
+    width: auto;
+    height: 500px;
     background-color: blanchedalmond;
+    overflow-y: auto;
 }
 
 /* HACK:need to make seperate class for img eventually */
@@ -188,9 +191,7 @@ marquee{
 
 /* left Sidebar */
 .left-sidebar {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
 
     height: 500px;
     width: 200px;
@@ -217,14 +218,12 @@ marquee{
 
 /* right navbar */
 .right-navbar {
-    display:flex;
-    justify-content: start;
-    align-items: start;
+    display:block;
+    flex-shrink: 0;
 
     height: 500px;
-    width: 200px;
+    width: 180px;
     background-color: lightcoral;
-    overflow: auto;
     margin-left: auto;
 }
 
@@ -297,14 +296,29 @@ marquee{
 }
 
 /* ------------SHRINE------------*/
+.shrine-bg{
+    background: radial-gradient(circle 700px at 45% 20%, #f4fee1 50%, #bff38f );   
+}
+
+.shrine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+}
 
 .shrine-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*eventually change to 4 columns*/
+    justify-items: center;
     gap: 10px;
 
-    width: 600px;
+    width: auto;
+    height: auto;
     background-color: aqua;
 }
 
@@ -361,9 +375,4 @@ marquee{
     margin-left: 20px;
 
     background-color: bisque;
-}
-
-/* ------------SHRINES------------*/
-.shrine-bg{
-    background: radial-gradient(circle 700px at 45% 20%, #f4fee1 50%, #bff38f );   
 }
