@@ -333,6 +333,10 @@ marquee{
     image-rendering: crisp-edges;
 }
 
+.shrine-border{
+    border: 40px solid transparent;
+    border-image: url('assets/images/general/border.png') 80 round;
+}
 /* ------------ABOUT ME------------*/
 
 .about-me-bg{
