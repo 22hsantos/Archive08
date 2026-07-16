@@ -334,7 +334,7 @@ marquee{
 }
 
 .shrine-border{
-    border: 40px solid transparent;
+    border: 20px solid transparent;
     border-image: url('assets/images/general/border.png') 80 round;
 }
 /* ------------ABOUT ME------------*/
