@@ -37,6 +37,14 @@ h1 {
     background-color: white;
 }
 
+h2{
+    padding: 3px;
+    color: #fcffcd;
+    font-size: larger;
+    -webkit-text-stroke: 4px #103600;
+    paint-order: stroke;
+}
+
 marquee{
     color: white;
     font-size: larger;
@@ -80,7 +88,7 @@ marquee{
     display: flex;
     align-items: center;
     height: 30px;
-    max-width: 1000px;
+    max-width: 993px;
     margin: 10px auto 10px auto;
     overflow: hidden;
 
@@ -120,6 +128,10 @@ marquee{
     box-sizing: border-box;
     border-radius: 10px;
 }
+
+.shadow{
+    box-shadow: 0px 2px 5px 2px rgba(16, 54, 0, 0.249);
+}
 /* Global footer style*/
 .global-footer{
     display: flex;
@@ -156,11 +168,10 @@ marquee{
 
     width: auto;
     height: 500px;
-    background-color: blanchedalmond;
+    background-color: #DDD5BC;
     overflow-y: auto;
 }
 
-/* HACK:need to make seperate class for img eventually */
 .main-desc-wrapper img{
     width: 30%;
     height: auto;
@@ -173,10 +184,14 @@ marquee{
     display: flex;
     justify-content: flex-start;
     text-align:left;
-
-    height: 30px;
     width: 100%;
-    background-color: pink;
+    background: linear-gradient(
+    180deg, 
+        #e7fdbb 10%, 
+        #bff38f 50%,
+        #247800 53%,
+        #bff38f 100%
+    );
 }
 
 /* description text*/
@@ -312,7 +327,7 @@ marquee{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 20px;
+    gap: 10px;
     
     width: auto;
     height: auto;
