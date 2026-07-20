@@ -305,8 +305,7 @@ marquee{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background-color: red;
+    overflow: auto;
 }
 
 .shrine-wrapper {
@@ -315,16 +314,14 @@ marquee{
     justify-items: center;
     gap: 20px;
     
-    padding: 20px;
     width: auto;
     height: auto;
-    background-color: yellow;
+    background-color: antiquewhite;
 }
 
 .shrine-wrapper img {
     display: flex;
-    width: 200px;
-    max-width: 100%;
+    max-width: 88%;
     height: 150px;
     object-fit: contain;
     margin: 10px;
@@ -334,10 +331,9 @@ marquee{
 }
 
 .shrine-border{
-    border-width: 40px 30px 150px 40px;
+    border-width: 30px 30px 150px 40px;
     border-style: solid;
-    border-right-color: red;
-    border-image: url('assets/images/shrine/shrine-border-png.png') 40 30 160 30  fill stretch;
+    border-image: url('assets/images/shrine/shrine-border-png.png') 48 18 160 36 stretch;
 }
 /* ------------ABOUT ME------------*/
 
