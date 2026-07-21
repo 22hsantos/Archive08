@@ -129,6 +129,11 @@ marquee{
     border-radius: 10px;
 }
 
+.title-round{
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
 .img-border{
     border: 23px solid;
     border-image: url('assets/images/general/img-border.gif') 9 round;
@@ -382,16 +387,17 @@ marquee{
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
-    background-color: coral;
+    margin: 20px;
+    background-color: #6F933E;
 }
 
 .fav-character-wrapper{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px 20px 20px auto;
+    margin: 15px 15px 15px auto;
 
+    width: 40%;
     background-color: aliceblue;
 }
 .fav-character-title{
@@ -404,10 +410,10 @@ marquee{
     background-color: #247800;
 }
 
-.fav-character img{
-    display: block;
+.fav-character{
+    display: flex;
     width: 70%;
-    height: 90%;
+    height: 100%;
     object-fit: contain;
 
     image-rendering: pixelated;
@@ -421,12 +427,32 @@ marquee{
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
-.temporary-todo{
+
+.info-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    margin-right: auto;
-    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 
-    background-color: bisque;
+    gap: 20px;
+    width: 50%;
+    height: 330px;
+}
+.about-me1{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    background-color: #FDFFCD;
+}
+
+.about-me2{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    background-color: #DDD5BC;
 }
