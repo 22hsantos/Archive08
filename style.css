@@ -130,8 +130,11 @@ marquee{
 }
 
 .img-border{
-    border-width: 10px solid;
-    border-image: url('assets/images/general/img-border.gif') 9 stretch;   
+    border: 23px solid;
+    border-image: url('assets/images/general/img-border.gif') 9 round;
+    
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 .shadow{
@@ -332,22 +335,25 @@ marquee{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 10px;
+    gap: 5px;
     
     width: auto;
     height: auto;
-    background-color: antiquewhite;
+    background-color: #A08E79;
 }
 
 .shrine-wrapper img {
     display: flex;
     max-width: 88%;
-    height: 150px;
+    max-height: 88%;
     object-fit: contain;
     margin: 10px;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+
+    border: 15px solid;
+    border-image: url('assets/images/general/border2.gif') 7 round;
 }
 
 .shrine-border{
@@ -380,15 +386,41 @@ marquee{
     background-color: coral;
 }
 
-.fav-character{
+.fav-character-wrapper{
     display:flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     margin: 20px 20px 20px auto;
 
     background-color: aliceblue;
 }
+.fav-character-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    height: 30px;
+    width: 100%;
+    background-color: #247800;
+}
+
+.fav-character img{
+    display: block;
+    width: 70%;
+    height: 90%;
+    object-fit: contain;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+.fave-character-border{
+    border-width: 50px 30px 30px 30px;
+    border-style: solid;
+    border-image: url('assets/images/about_me/character-border.png') 17 round ;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
 .temporary-todo{
     display: flex;
     flex-direction: column;
