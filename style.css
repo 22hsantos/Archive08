@@ -54,6 +54,11 @@ marquee{
     -webkit-text-stroke: 4px #103600;
     paint-order: stroke;
 }
+
+a {
+    text-decoration: none;
+}
+
 /* #endregion */
 
 /* #region for global elements style */
