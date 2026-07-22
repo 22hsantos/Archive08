@@ -72,7 +72,6 @@ marquee{
     /* global banner border */
     box-sizing: border-box;
     border: 7px inset #f4fee1;
-    border-radius: 10px;
 }
 
 .banner-left{
@@ -127,11 +126,10 @@ marquee{
     margin: auto;
 }
 
-/* border style*/
-.border{
+/* shadow style*/
+.shadow{
     /* main desc border */
-    box-sizing: border-box;
-    border-radius: 10px;
+    box-shadow: 0 0 0 10px rgba(16, 54, 0, 0.431);
 }
 
 .title-round{
@@ -231,14 +229,12 @@ marquee{
 
     height: 500px;
     width: 200px;
-    background: radial-gradient(
-        circle 700px at 45% 0%, 
-        #FDFFCD 30%, 
-        #6cb04f 70%
-        );
-
-    border: 2px solid #103600;
+    background-color: #A3AA97;
+    border: 3px solid #103600;
+    box-shadow: inset 0 0 20px rgba(16, 54, 0, 0.249);
     margin-right: auto;
+
+    
 }
 
 /* left Sidebar content wrapper */
@@ -267,7 +263,15 @@ marquee{
 
     height: 500px;
     width: 180px;
-    background-color: lightcoral;
+    background: radial-gradient(
+        circle 700px at 45% 0%, 
+        #FDFFCD 10%, 
+        #6cb04f 40%
+        );
+
+    border: 3px solid #103600;
+    box-shadow: inset 0 0 20px rgba(239, 251, 233, 0.249);
+
     margin-left: auto;
 }
 
@@ -335,8 +339,9 @@ marquee{
     justify-content: center;
     align-items: center;
 
-    height: 100%;
-    width: 100%;
+    height: 127px;
+    width: 127px;
+    margin: 20px;
     background-color: bisque;
 }
 
