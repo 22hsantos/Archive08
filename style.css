@@ -1,3 +1,4 @@
+/* #region for Fonts */
 @font-face {
     font-family: 'PixelFont';
     src: url('assets/fonts/Jersey10-Regular.woff2') format('woff2');
@@ -16,7 +17,9 @@
     font-family: 'HeaderFont';
     src: url('assets/fonts/Simon.woff2') format('woff2');
 }
-/* ------------GENERAL STYLES------------*/
+/* #endregion */
+
+/* #region for built-in tags*/
 
 * {
     margin: 0;
@@ -51,7 +54,9 @@ marquee{
     -webkit-text-stroke: 4px #103600;
     paint-order: stroke;
 }
-/* global header style */
+/* #endregion */
+
+/* #region for global elements style */
 .global-banner {
 
     display: flex;
@@ -158,7 +163,9 @@ marquee{
     margin-top: 20px;
 }
 
-/* ------------MID SECTION------------*/
+/* #endregion */
+
+/* #region for middle section*/
 
 /* mid section wrapper style*/
 .mid-content-wrapper {
@@ -179,7 +186,7 @@ marquee{
     display: flex;
     flex-direction: column;
 
-    width: auto;
+    width: 100%;
     height: 500px;
     background-color: #DDD5BC;
     overflow-y: auto;
@@ -214,8 +221,9 @@ marquee{
     justify-content: center;
     margin: 20px;
 }
+/* #endregion */
 
-/* ------------SIDEBARS------------*/
+/* #region for left sidebar*/
 
 /* left Sidebar */
 .left-sidebar {
@@ -243,7 +251,9 @@ marquee{
     height: 170px;
     width: 170px;
 }
+/* #endregion */
 
+/* #region for right navbar */
 /* right navbar */
 .right-navbar {
     display:block;
@@ -264,6 +274,7 @@ marquee{
 
     padding: 10px;   
 }
+/* #endregion */
 
 /* ------------INDEX------------*/
 .index-content-wrapper {
@@ -323,7 +334,7 @@ marquee{
     background-color: bisque;
 }
 
-/* ------------SHRINE------------*/
+/* #region for Shrine*/
 .shrine-bg{
     background: radial-gradient(circle 700px at 45% 20%, #f4fee1 50%, #bff38f );   
 }
@@ -366,7 +377,9 @@ marquee{
     border-style: solid;
     border-image: url('assets/images/shrine/shrine-border-png.png') 48 18 160 36 stretch;
 }
-/* ------------ABOUT ME------------*/
+/* #endregion */
+
+/* #region for About Me*/
 
 .about-me-bg{
     background: radial-gradient(circle 1000px at 70% 0%, #ffffff 50%, #dcd4bb );
@@ -456,3 +469,4 @@ marquee{
     height: 100%;
     background-color: #DDD5BC;
 }
+/* #endregion */
