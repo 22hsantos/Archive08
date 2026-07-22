@@ -231,7 +231,13 @@ marquee{
 
     height: 500px;
     width: 200px;
-    background-color:rgb(179, 189, 168);
+    background: radial-gradient(
+        circle 700px at 45% 0%, 
+        #FDFFCD 30%, 
+        #6cb04f 70%
+        );
+
+    border: 2px solid #103600;
     margin-right: auto;
 }
 
@@ -243,7 +249,7 @@ marquee{
     text-align: center;
     justify-content: center;
 
-    padding: 10px;
+    margin: 20px;
 }
 
 /* HACK:need to make seperate class for img eventually */
@@ -329,8 +335,8 @@ marquee{
     justify-content: center;
     align-items: center;
 
-    height: 180px;
-    width: 180px;
+    height: 100%;
+    width: 100%;
     background-color: bisque;
 }
 
