@@ -132,6 +132,10 @@ marquee{
     box-shadow: 0 0 0 10px rgba(16, 54, 0, 0.431);
 }
 
+.divider{
+    height: 13px;
+    width: 160px;
+}
 .title-round{
     box-sizing: border-box;
     border-radius: 10px 10px 0px 0px;
@@ -279,7 +283,7 @@ marquee{
 .right-navbar-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     padding: 10px;   
