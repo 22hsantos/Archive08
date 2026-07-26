@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>A08/Personal Shrines</title>
+    <title>About me</title>
 </head>
 <!--this is where javascript code would be placed-->
-<body class="shrine-bg">
+<body class="about-me-bg">
     <header class="global-banner">
         <img src="assets/images/general/graphic2.png" class="banner-left">
         <h1 class="header-title">Archive08</h1>
@@ -18,67 +18,83 @@
       <marquee direction="left">Well, If this take away from my spins/  Which'll probably take away from my ends/   Then I hope it take away from my sins/   And bring the day that I'm dreamin' 'bout/   Next time I'm in the club, everybody screamin' out-</marquee>
     </div>
 
-    <main class="main-content-wrapper">
+    <main class="all-content-wrapper">
 
-        <aside class="left-sidebar border" style="width: 170px;">
-            <div class="left-sidebar-wrapper">
+        <div class="main-content-wrapper">
 
-                <h2>Updates</h2>
+            <aside class="left-sidebar border">
+                <div class="left-sidebar-wrapper"> <!--TODO: fix style-->
 
-                <div class="update-box">
-                    <strong>03.06.26</strong>
-                    <p>decide purpose</p>
-                    <!--
-                    TODO: make box div for updates
-                    have to link txt file with Javascipt
-                    -->                    
+                    <h2>Currently listening to...</h2> <!--TODO: make into GIF-->
+                    <div style="height: auto; width: 100%; background-color: white; border: 2px solid green; margin-bottom: 5px;"><h3 style="background-color: yellow;">The College Dropout</h3><h4 style="back">By Kanye West</h4></div><!--HACK: make style later-->
+                    <img src="assets/images/cd-store/Kanyewest_collegedropout.jpg" style="border: 2px solid green;"><!--HACK: fix style-->
+                    <h2>8/10</h2>
+                    <p>Playful, clever, and isn't scared to be downright ridiculous at times. It's Kanye.
+                    </p>
                 </div>
+            </aside>
 
+            <section class="mid-content-wrapper">
+                <div class="main-desc-wrapper">
+                    <h2 class="main-title shadow">&nbsp;CD Store</h2>
+                    <b class="desc-content">Welcome to Archive08!</b>
+
+                    <!--HACK:need to change text CSS spacing later :,)-->
+                    <p class="desc-content">
+                        Welcome to the CD Store :D<br>
+                        <br>
+                        Take your time, and have a browse
+                    </p>
+                    <img src="assets/images/general/placeholder_img.gif" class="img-border border">
+            </section>
+
+            <aside class="right-navbar border">
+                <div class="right-navbar-wrapper">
+                    <h3>This is the right navbar.</h3>
+                    <a href="homepage.html">Home</a>
+                    <a href="about_me.html">About Me (You Are Here!)</a>
+                    <a href="shrine.html">Personal Shrines (WIP)</a>
+                    <a href="guestbook.html">Guestbook (WIP)</a>
+                    <a href="cd-store.html">CD store (WIP)</a>
+                    <a href="art-gallery.html">Art Gallery (WIP)</a>
+                </div>
+            </aside>
+        </div>
+
+        <div class="about-me-wrapper border">
+            
+            <div class="info-wrapper">
+                <section class="about-me1 border"> <!--TODO: fix naming-->
+                    <div class="main-title title-round shadow"><h2>Likes</h2></div>
+                    <li>
+                        <h3>Hobbies</h3>
+                        <h3>likes</h3>
+                        <h3>dislikes</h3>
+                        <h3>favourites artists/albums</h3>
+                        <h3>favourite song ATM</h3>
+                        <h3>favourite games</h3>
+                    </li>
+                </section>
+                <section class="about-me2 border">
+                    <div class="main-title title-round shadow"><h2>Dislikes</h2></div>
+                    <p>desc</p>
+                </section>
             </div>
-        </aside>
-
-        <section class="mid-content-wrapper">
-
-            <h2 class="main-title shadow">&nbsp;CD Store</h2>
-
-            <div class="shrine shrine-border">
-
-                <!--links-->
-                <div class="shrine-wrapper">
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                    <a href="index.html"><img src="assets/images/general/wip.gif" alt="WIP" class="border"></a>
-                </div> 
+            <div class="fav-character-wrapper"> <!--TODO: fix naming-->
+                <div class="fav-character-title">
+                    <h2>My favourite sanrio character ATM</h2>
+                </div>
+                <img src="assets/images/general/placeholder_img.gif" class="fave-character fave-character-border">
             </div>
-        </section>
 
-        <aside class="right-navbar border" style="width: 170px;">
-            <div class="right-navbar-wrapper">
-                <h3>Navigation</h3>
-                <a href="homepage.html">Home</a>
-                <a href="about_me.html">About Me(WIP)</a>
-                <a href="shrine.html">Personal Shrines(WIP)</a>
-                <a href="guestbook.html">Guestbook(WIP)</a>
-                <a href="cd-store.html">CD store (You are here)</a>
-                <a href="art-gallery.html">Art Gallery (WIP)</a>
-            </div>
-        </aside>
+        </div>
+        
+
     </main>
     
     <footer class="global-footer">
-        <h1>
-            <a href="homepage.html">Return to homepage</a>
-        </h1>
-        <!-- TODO: Need to make a spotify player!-->
-        <!--Can also be a local player?-->
+        <h4>This is the footer.</h4>
+        <h2><a href="homepage.html">RETURN TO HOMEPAGE&lt;</a></h2>
     </footer>
 </body>
 </html>
