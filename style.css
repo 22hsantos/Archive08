@@ -18,6 +18,10 @@
     src: url('assets/fonts/Simon.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'NavFont';
+    src: url('assets/fonts/pirkkala.woff2') format('woff2');
+}
 /* #endregion */
 
 /* #region for built-in tags*/
@@ -293,7 +297,8 @@ a {
     justify-content: center;
 
     padding: 10px;
-    gap: 7px;   
+    gap: 7px;
+    font-family: 'NavFont', sans-serif;   
 }
 
 .highlight-link{
@@ -301,12 +306,20 @@ a {
     padding:2px 6px;
     border-radius: 3px;
 
-    transition: background-color 0.1s ease, color 0.1s ease;
+    transition: background 0.1s ease, color 0.1s ease;
 }
 
 .highlight-link:hover{
     background-color: #103600;
     color: #fcffcd;
+}
+
+.nav-header{
+    padding: 3px;
+    color: #bff38f;
+    font-size: larger;
+    -webkit-text-stroke: 4px #103600;
+    paint-order: stroke;
 }
 /* #endregion */
 
