@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+a:visited{
+    color: #103600;
+}
+
 /* #endregion */
 
 /* #region for global elements style */
@@ -299,31 +303,34 @@ a {
     padding: 10px;
     gap: 7px;
     font-family: 'NavFont', sans-serif;   
-    background-color: red;
 }
 
 .link-box{
     display: flex;
     align-items: flex-start;
-    height: 16px;
-    width: max-content;
-    background-color: yellow;
-}
-
-.link-box img{
-    height: 16px;
-}
-.highlight-link{
-    color: #103600;
-    padding:2px 6px;
-    border-radius: 3px;
+    height: 18px;
+    padding: 2px;
+    width: 100%;
 
     transition: background 0.1s ease, color 0.1s ease;
 }
 
-.highlight-link:hover{
-    background-color: #103600;
-    color: #fcffcd;
+.link-box img{
+    display: none;
+    height: 18px;
+    margin-left: auto;
+}
+
+.link-box:hover{
+    background-color: #247800;
+}
+
+.link-box:hover img{
+    display:block;
+}
+
+.link-box:hover a{
+    color: white;
 }
 
 .nav-header{
