@@ -343,6 +343,15 @@ a:visited{
 /* #endregion */
 
 /* ------------INDEX------------*/
+.index-bg{
+    background-image: url('assets/images/index/field-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
 .index-content-wrapper {
     display: flex;
     flex-direction: column;
@@ -350,6 +359,7 @@ a:visited{
     align-items: center;
     margin: auto;
 }
+
 
 /* splashpage door */
 
@@ -359,7 +369,7 @@ a:visited{
     width: 200px;
     height: 200px;
     border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 210px;
     margin-bottom: 20px;
 }
 
