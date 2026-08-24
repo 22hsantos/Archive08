@@ -598,41 +598,32 @@ a:visited{
 
 /*#region for art gallery*/
 .gallery{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
-}
+    height:auto;
+    width:90%;
+    margin:20px auto 20px auto;
 
+    background-color: #A08E79;
+}
 .gallery-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 15px;
-    margin:20px;
+    margin: 10px;
     
     width: auto;
     height: auto;
-    background-color: #A08E79;
 }
 
 .gallery-wrapper img {
-    display: flex;
-    max-width: 50%;
-    max-height: 50%;
+    display: block;
+    width: 80%;
     object-fit: contain;
-    margin: 10px;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 
     border: 15px solid;
     border-image: url('assets/images/general/border2.gif') 7 round;
-}
-
-.gallery-border{
-    border: 5px solid #103600;
 }
 /*#endregion*/
