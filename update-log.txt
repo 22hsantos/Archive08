@@ -1,0 +1,57 @@
+03/08/26 2:58
+Testing fonts for navbar
+
+
+03/08/26 3:05
+Narrow down to these two (boiled pasta & pirkkala), will test soon.
+
+
+05/08/26 9:50
+Boiled pasta (left) and pirkkala (right)
+I decided on pirkkala.
+
+05/08/26 10:23
+starting to add button on link hover
+
+
+06/08/26 10:59
+Deciding whether to add box shadow for functionality?
+
+Decided not to.
+
+21/08/26 00:10
+New navbar, with blinkies
+
+
+00:13
+I want to use windows XP style BG for the splashpage but it’s copyrighted, so I’ll have to find a free one…
+
+00:47
+will need to create a GIF for index page soon. I had a look at preset GIF logos, but these do not fit my aesthetic.
+
+00:59
+I am now looking for good hosts for my guestbook. I had looked at the Cbox live chat style(Cbox link), or the more popular Atabook guestbook page(Atabook user). I found out that Atabook includes the options for messages under review and blocking inappropriate words, so I think it suits my webpage best. 
+
+1:12
+Now testing functionality of Atabook hosting page.
+
+Approval system seems good.
+Profanity check and replacement seems good.
+IP blocking is working.
+Atabook seems to be reliable, so I will be using it for my website.
+
+1:36
+Just found out using custom CSS is a paid feature :( Might need to rethink Atabook
+
+1:46
+Solved, I will instead iframe it into my website.
+
+24/08/26 9:14
+Tested sending messages through Atabook page embed, it worked.
+
+24/08/26 11:16
+Working on the guestbook page. Navigation next to the guestbook embed feels uncentered, so I’m creating a horizontal bar underneath.
+I realised that user can’t click the whole box on highlight, and can only click the text. To better increase functionality, I will make the whole container the clickable link.
+
+
+This supposed new structure allows for the whole box to be clickable.
