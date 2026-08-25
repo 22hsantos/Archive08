@@ -55,3 +55,6 @@ I realised that user can’t click the whole box on highlight, and can only clic
 
 
 This supposed new structure allows for the whole box to be clickable.
+
+25/08/26 11:26
+Initially, I was going to create an analogue clock for my leftbar on the homepage. However, this may be too complicated, so I will just do a digital clock instead.
