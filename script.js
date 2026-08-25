@@ -1,3 +1,4 @@
+//live clock
 function updateTime() {
     const now = new Date();//grabs date and stores it in now
     let hours = now.getHours();// grabs Hours from now and stores it in hours
@@ -22,3 +23,13 @@ function updateTime() {
 setInterval(updateTime, 1000);// run every 1000 millisec
 
 updateTime();
+
+//live weekday
+function updateDay(){
+    const today = new Date();//grabs date and stores it in today
+
+    const dayName = today.toLocaleString('en-NZ', {weekday:'long'})//converts plaint date to eng-NZ(locale) and weekday(option)
+
+    document.getElementById('live-day').textContent = dayName;//updates live-day
+}
+updateDay();
