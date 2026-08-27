@@ -40,8 +40,11 @@ updateDay();
 
 //image gallery
 const images = [
-    "assets/images/about_me/placeholder_cat.jpeg",//0
-    "assets/images/general/placeholder_img.gif"//1
+    "assets/images/about_me/gallery-img-src/cat.jpeg",
+    "assets/images/about_me/gallery-img-src/choc.jpeg",
+    "assets/images/about_me/gallery-img-src/panda.jpeg",
+    "assets/images/about_me/gallery-img-src/uni.jpeg",
+    "assets/images/about_me/gallery-img-src/pikmin.jpeg",
 ];
 
 let currentIndex = 0;// "let" defines a value that can be changed.
