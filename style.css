@@ -71,6 +71,11 @@ a:visited{
 /* #endregion */
 
 /* #region for global elements style */
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
 .global-banner {
 
     display: flex;
@@ -259,8 +264,6 @@ a:visited{
     border: 3px solid #103600;
     box-shadow: inset 0 0 20px rgba(16, 54, 0, 0.249);
     margin-right: auto;
-
-    
 }
 
 /* left Sidebar content wrapper */
@@ -278,6 +281,21 @@ a:visited{
 .left-sidebar-wrapper img{
     height: 170px;
     width: 170px;
+}
+.left-title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #103600;
+}
+
+.left-title-box h3{
+    background-color: yellow;
 }
 /* #endregion */
 
