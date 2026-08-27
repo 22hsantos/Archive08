@@ -275,6 +275,7 @@ a:visited{
     justify-content: center;
 
     margin: 20px;
+    background-color: red;
 }
 
 /* HACK:need to make seperate class for img eventually */
@@ -296,6 +297,11 @@ a:visited{
 
 .left-title-box h3{
     background-color: yellow;
+}
+
+.left-img-box{
+    height: auto;
+    width: 100%;
 }
 /* #endregion */
 
