@@ -573,6 +573,16 @@ button:hover{
 #prev-btn{left:10px}
 #next-btn{right:10px}
 
+.food-img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
 .fav-character-wrapper{
     display:flex;
     flex-direction: column;
