@@ -276,12 +276,19 @@ a:visited{
 
     margin: 20px;
     background-color: red;
+    max-height: 460px;
 }
 
+.left-sidebar-text{
+    max-height: 330px;
+    overflow-y: auto;
+    background-color: #FDFFCD;
+}
 /* HACK:need to make seperate class for img eventually */
-.left-sidebar-wrapper img{
-    height: 170px;
-    width: 170px;
+.left-sidebar-img{
+    display: block;
+    max-width: 170px;
+    max-height: 170px;
 }
 .left-title-box{
     display: flex;
@@ -510,6 +517,12 @@ a:visited{
     border-style: solid;
     border-image: url('assets/images/shrine/shrine-border-png.png') 48 18 160 36 stretch;
 }
+
+.rant-img{
+    display: block;
+    width:50px;
+    height: 50px;
+}
 /* #endregion */
 
 /* #region for About Me*/
@@ -526,8 +539,8 @@ a:visited{
     height: 170px;
     width: 170px;
     margin: 20px;
-    background-color: rgb(150, 196, 237);
-    overflow: auto;
+    overflow: hidden;
+    border: 2px solid #103600;
 }
 
 #gallery-img{/* # is used for IDs */
