@@ -63,3 +63,8 @@ Initially, I was going to create an analogue clock for my leftbar on the homepag
 
 Figuring out button for music player.
 
+8:48
+I figured out the music player still plays even if it is hidden, maybe I can mute the whole page?
+
+Muting elements on the page does not apply to embeds. But I think it should be fine for the user to pause manually.
+
