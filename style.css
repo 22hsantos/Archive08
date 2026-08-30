@@ -504,9 +504,9 @@ a:visited{
 
 .shrine-wrapper img {
     display: flex;
-    max-width: 88%;
-    max-height: 88%;
-    object-fit: contain;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
     margin: 10px;
 
     image-rendering: pixelated;
@@ -717,8 +717,9 @@ a:visited{
 
 .gallery-wrapper img {
     display: block;
-    width: 80%;
-    object-fit: contain;
+    width:230px;
+    height: 230px;
+    object-fit: cover;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
