@@ -6,7 +6,7 @@ const images = [
     "assets/images/about_me/gallery-img-src/uni.jpeg",
     "assets/images/about_me/gallery-img-src/pikmin.jpeg",
 ];
-//spotify srcs
+
 const spotifyUrl =[
     "https://open.spotify.com/embed/album/4Uv86qWpGTxf7fU7lG5X6F?utm_source=generator&theme=0&si=377f8299afc94635",// The College Dropout - Kanye West 0
     "https://open.spotify.com/embed/album/29U9LtzSF0ftWiLNNw1CP6?utm_source=generator&si=f509e79ced6e4c3f",// First Love - Utada Hikaru 1
