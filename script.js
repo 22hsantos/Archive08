@@ -65,3 +65,10 @@ function prevImage(){
 }
 
 updateImage();
+
+function toggleMusicPlayer(){
+    const musicPlayer = document.getElementById("music-player");
+
+    if (!musicPlayer) return; //checks if "music-player" exists, if not, return (stop)
+    musicPlayer.hidden = !musicPlayer.hidden;// if hidden is true, make it false, if false, make it true
+}
