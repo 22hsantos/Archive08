@@ -1,3 +1,25 @@
+//image gallery
+const images = [
+    "assets/images/about_me/gallery-img-src/cat.jpeg",
+    "assets/images/about_me/gallery-img-src/choc.jpeg",
+    "assets/images/about_me/gallery-img-src/panda.jpeg",
+    "assets/images/about_me/gallery-img-src/uni.jpeg",
+    "assets/images/about_me/gallery-img-src/pikmin.jpeg",
+];
+
+const spotifyUrl =[
+    "https://open.spotify.com/embed/album/4Uv86qWpGTxf7fU7lG5X6F?utm_source=generator&theme=0&si=377f8299afc94635",// The College Dropout - Kanye West 0
+    "https://open.spotify.com/embed/album/29U9LtzSF0ftWiLNNw1CP6?utm_source=generator&si=f509e79ced6e4c3f",// First Love - Utada Hikaru 1
+    "https://open.spotify.com/embed/album/4Is0raRF9P6wWFZjXO6P9K?utm_source=generator&si=ff0ad0c62b364957",// Speak For Yourself - Imogen Heap 2
+    "https://open.spotify.com/embed/album/2T7LuxZRr6SQMgABLtoYTH?utm_source=generator&si=1f5c4b4f9183470f",// Sunburn - Dominic Fike 3
+    "https://open.spotify.com/embed/album/4tUxQkrduOE8sfgwJ5BI2F?utm_source=generator&si=8aa8cec13eac41e7",// Gorillaz - Gorillaz 4
+    "https://open.spotify.com/embed/album/39VuC5rYQHAnR6xQwm1WDk?utm_source=generator&si=1619e7f77cf74fb8",// SMITHEREENS - Joji 5
+    "https://open.spotify.com/embed/album/7BQPfd39YTObQGamGhDF7g?utm_source=generator&si=32d0a6deb0f8419c",// SEYCHELLES - Masayoshi Takanaka 6
+    "https://open.spotify.com/embed/album/09USEqUAHWG8IAvc19PTwM?utm_source=generator&si=9ecd4a6e1ce94eca",// AFTERMATH - CthruRio 7
+    "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV?utm_source=generator&si=d0f91c491a4c42cb",// Timely!! - Anri 8
+    "https://open.spotify.com/embed/album/06v9eHnqhMK2tbM2Iz3p0Y?utm_source=generator&si=e205fc447a114210"// Dangerously In Love - Beyoncé 9
+]
+
 //live clock
 function updateTime() {
     if (!document.getElementById("hours")) return;//checks if "hours" exists, if not, return (stop)
@@ -38,15 +60,6 @@ function updateDay(){
 }
 updateDay();
 
-//image gallery
-const images = [
-    "assets/images/about_me/gallery-img-src/cat.jpeg",
-    "assets/images/about_me/gallery-img-src/choc.jpeg",
-    "assets/images/about_me/gallery-img-src/panda.jpeg",
-    "assets/images/about_me/gallery-img-src/uni.jpeg",
-    "assets/images/about_me/gallery-img-src/pikmin.jpeg",
-];
-
 let currentIndex = 0;// "let" defines a value that can be changed.
 
 function updateImage() {//updates the image in the gallery
@@ -71,4 +84,9 @@ function toggleMusicPlayer(){
 
     if (!musicPlayer) return; //checks if "music-player" exists, if not, return (stop)
     musicPlayer.hidden = !musicPlayer.hidden;// if hidden is true, make it false, if false, make it true
+}
+
+function updateMusicPlayer(CurrentSong){
+    const iframe = document.querySelector("#music-player iframe");
+    iframe.src = spotifyUrl[CurrentSong];
 }

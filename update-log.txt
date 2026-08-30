@@ -58,3 +58,8 @@ This supposed new structure allows for the whole box to be clickable.
 
 25/08/26 11:26
 Initially, I was going to create an analogue clock for my leftbar on the homepage. However, this may be too complicated, so I will just do a digital clock instead.
+
+30/08/26 7:18
+
+Figuring out button for music player.
+
