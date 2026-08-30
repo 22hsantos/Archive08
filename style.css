@@ -504,10 +504,10 @@ a:visited{
 
 .shrine-wrapper img {
     display: flex;
-    max-width: 88%;
-    max-height: 88%;
-    object-fit: contain;
-    margin: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 5px;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
