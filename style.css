@@ -275,7 +275,6 @@ a:visited{
     justify-content: center;
 
     margin: 20px;
-    background-color: red;
     max-height: 460px;
 }
 
@@ -435,7 +434,6 @@ a:visited{
     
     width: 200px;
     height: 200px;
-    border: 2px solid black;
     margin-top: 30vh;
     margin-bottom: 20px;
 }
@@ -450,7 +448,7 @@ a:visited{
     image-rendering: pixelated;
 }
 /*#endregion*/
-/* ------------HOMEPAGE------------*/
+/* #region for homepage*/
 
 /* box for updates*/
 .update-box {
@@ -478,6 +476,11 @@ a:visited{
     background-color: bisque;
 }
 
+.clock{
+    font-family: 'NavFont', sans-serif;
+    font-size: larger;
+}
+/*#endregion*/
 /* #region for Shrine*/
 .shrine-bg{
     background: radial-gradient(circle 700px at 45% 20%, #f4fee1 50%, #bff38f );   
@@ -558,7 +561,7 @@ a:visited{
     position: absolute;
     top: 80%;/*distance from top*/
     transform: translateY(-50%);
-    background: url("assets/images/general/placeholder_img.gif");
+    background: url("assets/images/general/img-button.gif");
     border: none;
     font-size: 24px;
     padding: 12px 16px;
@@ -717,8 +720,9 @@ a:visited{
 
 .gallery-wrapper img {
     display: block;
-    width: 80%;
-    object-fit: contain;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
 
     image-rendering: pixelated;
     image-rendering: crisp-edges;
